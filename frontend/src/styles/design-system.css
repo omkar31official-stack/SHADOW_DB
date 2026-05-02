@@ -1,0 +1,273 @@
+/* =============================================
+   SHADOWDB SYSTEM — DESIGN SYSTEM
+   Iron Man / HUD Cyber Theme
+   ============================================= */
+
+/* CSS Reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* === COLORS === */
+  --bg-void: #010409;
+  --bg-primary: #020b14;
+  --bg-secondary: #051322;
+  --bg-tertiary: #081d33;
+  --bg-panel: #04101e;
+  --bg-card: rgba(4, 18, 35, 0.7);
+  --bg-elevated: rgba(6, 26, 48, 0.85);
+  --bg-glass: rgba(2, 11, 20, 0.6);
+  --bg-glass-light: rgba(5, 20, 36, 0.5);
+  --bg-glass-hover: rgba(0, 243, 255, 0.08);
+
+  /* Neon Accents (Iron Man HUD) */
+  --neon-cyan: #00f3ff;
+  --neon-cyan-dim: #0088aa;
+  --neon-cyan-glow: rgba(0, 243, 255, 0.4);
+  --neon-blue: #0066ff;
+  --neon-blue-dim: #0033aa;
+  --neon-blue-glow: rgba(0, 102, 255, 0.4);
+  --neon-red: #ff2a2a;
+  --neon-red-glow: rgba(255, 42, 42, 0.4);
+  --neon-yellow: #ffcc00;
+  --neon-yellow-glow: rgba(255, 204, 0, 0.4);
+  --neon-green: #00ff66;
+  --neon-green-glow: rgba(0, 255, 102, 0.4);
+  --neon-purple: #b700ff;
+
+  /* Status Colors */
+  --status-wanted: #ff2a2a;
+  --status-arrested: #ffcc00;
+  --status-released: #00ff66;
+  --status-deceased: #5a7b8c;
+  --status-open: #00f3ff;
+  --status-investigating: #ffcc00;
+  --status-closed: #00ff66;
+  --status-cold: #5a7b8c;
+
+  /* Danger Levels */
+  --danger-low: #00ff66;
+  --danger-medium: #ffcc00;
+  --danger-high: #ff6600;
+  --danger-critical: #ff2a2a;
+
+  /* Text */
+  --text-primary: #e6f7ff;
+  --text-secondary: #8ab4f8;
+  --text-tertiary: #4c7eb3;
+  --text-accent: #00f3ff;
+  --text-muted: #2f547a;
+
+  /* Borders */
+  --border-subtle: rgba(0, 243, 255, 0.1);
+  --border-light: rgba(0, 243, 255, 0.25);
+  --border-medium: rgba(0, 243, 255, 0.5);
+  --border-neon-cyan: rgba(0, 243, 255, 0.6);
+  --border-neon-red: rgba(255, 42, 42, 0.5);
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.6);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.8);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.9);
+  --glow-cyan: 0 0 15px rgba(0, 243, 255, 0.3), inset 0 0 10px rgba(0, 243, 255, 0.1);
+  --glow-cyan-strong: 0 0 20px rgba(0, 243, 255, 0.6), inset 0 0 15px rgba(0, 243, 255, 0.2);
+  --glow-red: 0 0 15px rgba(255, 42, 42, 0.3);
+
+  /* Typography */
+  --font-primary: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-display: 'Orbitron', 'Rajdhani', sans-serif;
+
+  /* Layout */
+  --sidebar-width: 280px;
+  --viz-panel-width: 400px;
+}
+
+html { font-size: 15px; }
+body {
+  font-family: var(--font-primary);
+  background: var(--bg-void);
+  color: var(--text-primary);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+}
+#root { height: 100vh; width: 100vw; overflow: hidden; }
+
+/* ... (existing styles) ... */
+
+/* High-Readability Text */
+.display-text { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.2em; line-height: 1.2; }
+.hero-title { font-size: 3rem; font-weight: 900; text-shadow: 0 0 20px rgba(0, 243, 255, 0.4); }
+.card-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem; }
+.readable-mono { font-family: var(--font-mono); font-size: 1.1rem; line-height: 1.6; }
+
+/* Button Styles */
+.neon-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid var(--border-medium);
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.neon-btn::after {
+  content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  transition: 0.5s;
+}
+
+.neon-btn:hover::after {
+  left: 100%;
+}
+
+.neon-btn-primary {
+  background: rgba(0, 243, 255, 0.1);
+  border-color: var(--neon-cyan);
+  color: var(--neon-cyan);
+}
+
+.neon-btn-primary:hover {
+  background: rgba(0, 243, 255, 0.2);
+  box-shadow: 0 0 15px var(--neon-cyan-glow);
+}
+
+.neon-btn-red {
+  background: rgba(255, 42, 42, 0.1);
+  border-color: var(--neon-red);
+  color: var(--neon-red);
+}
+
+.neon-btn-red:hover {
+  background: rgba(255, 42, 42, 0.2);
+  box-shadow: 0 0 15px var(--neon-red-glow);
+}
+
+.neon-btn-ghost {
+  border-color: transparent;
+  color: var(--text-tertiary);
+}
+
+.neon-btn-ghost:hover {
+  color: var(--text-primary);
+  background: rgba(255,255,255,0.05);
+}
+
+.neon-btn-sm {
+  padding: 6px 12px;
+  font-size: 0.7rem;
+}
+
+
+.mono { font-family: var(--font-mono); }
+.text-sm { font-size: 0.9rem; } .text-xs { font-size: 0.8rem; } .text-lg { font-size: 1.3rem; }
+.text-xl { font-size: 1.8rem; } .text-2xl { font-size: 2.5rem; }
+
+/* Flexbox Utilities */
+.flex { display: flex; }
+.flex-col { display: flex; flex-direction: column; }
+.flex-1 { flex: 1; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.justify-end { justify-content: flex-end; }
+.gap-sm { gap: 8px; }
+.gap-md { gap: 16px; }
+.gap-lg { gap: 24px; }
+.overflow-hidden { overflow: hidden; }
+.relative { position: relative; }
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+
+/* Hacker Glitch Effect */
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
+}
+
+.glitch-hover:hover {
+  animation: glitch 0.3s cubic-bezier(.25, .46, .45, .94) both infinite;
+  color: var(--neon-cyan);
+  text-shadow: 2px 0 var(--neon-red), -2px 0 var(--neon-blue);
+}
+
+.glitch-text {
+  position: relative;
+  display: inline-block;
+}
+
+.glitch-text::before, .glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: var(--bg-void);
+}
+
+.glitch-text::before {
+  left: 2px;
+  text-shadow: -2px 0 var(--neon-red);
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim 5s infinite linear alternate-reverse;
+}
+
+.glitch-text::after {
+  left: -2px;
+  text-shadow: -2px 0 var(--neon-cyan);
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim2 5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+  0% { clip: rect(31px, 9999px, 94px, 0); }
+  20% { clip: rect(62px, 9999px, 42px, 0); }
+  40% { clip: rect(16px, 9999px, 78px, 0); }
+  60% { clip: rect(89px, 9999px, 13px, 0); }
+  80% { clip: rect(5px, 9999px, 99px, 0); }
+  100% { clip: rect(45px, 9999px, 23px, 0); }
+}
+
+@keyframes glitch-anim2 {
+  0% { clip: rect(65px, 9999px, 100px, 0); }
+  20% { clip: rect(12px, 9999px, 56px, 0); }
+  40% { clip: rect(98px, 9999px, 21px, 0); }
+  60% { clip: rect(43px, 9999px, 87px, 0); }
+  80% { clip: rect(76px, 9999px, 5px, 0); }
+  100% { clip: rect(21px, 9999px, 43px, 0); }
+}
+
+/* Board Scrolling Fix */
+.board-container {
+  overflow: auto !important;
+  scrollbar-width: thin;
+  scrollbar-color: var(--neon-cyan) var(--bg-void);
+}
+
+.board-container::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.board-container::-webkit-scrollbar-track {
+  background: var(--bg-void);
+}
+
+.board-container::-webkit-scrollbar-thumb {
+  background: var(--neon-cyan);
+  border-radius: 10px;
+}

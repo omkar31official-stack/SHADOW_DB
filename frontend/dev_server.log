@@ -1,0 +1,1271 @@
+
+> shadowdb-frontend@1.0.0 dev
+> vite
+
+
+  VITE v6.4.2  ready in 323 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+5:52:17 PM [vite] (client) hmr update /src/App.jsx
+5:52:46 PM [vite] (client) hmr update /src/components/layout/Sidebar.jsx
+5:53:22 PM [vite] (client) hmr update /src/components/layout/VisualizationPanel.jsx
+5:55:02 PM [vite] (client) hmr update /src/pages/CriminalsPage.jsx
+6:32:03 PM [vite] (client) hmr update /src/App.jsx
+6:32:16 PM [vite] (client) hmr update /src/App.jsx
+6:33:11 PM [vite] (client) hmr update /src/components/layout/VisualizationPanel.jsx
+6:33:23 PM [vite] (client) hmr update /src/components/layout/VisualizationPanel.jsx
+6:34:36 PM [vite] (client) hmr update /src/pages/CriminalsPage.jsx
+6:34:59 PM [vite] (client) hmr update /src/pages/DBExplorerPage.jsx
+6:35:10 PM [vite] (client) hmr update /src/pages/DBExplorerPage.jsx
+6:36:01 PM [vite] (client) hmr update /src/pages/CasesPage.jsx
+6:36:13 PM [vite] (client) hmr update /src/pages/CasesPage.jsx
+6:36:35 PM [vite] (client) hmr update /src/pages/CasesPage.jsx
+6:36:54 PM [vite] (client) hmr update /src/pages/EvidencePage.jsx
+6:37:58 PM [vite] (client) hmr update /src/pages/EvidencePage.jsx
+6:38:00 PM [vite] (client) hmr update /src/pages/EvidencePage.jsx
+6:38:16 PM [vite] (client) hmr update /src/pages/OfficersPage.jsx
+6:38:26 PM [vite] (client) hmr update /src/pages/OfficersPage.jsx
+6:38:36 PM [vite] (client) hmr update /src/pages/OfficersPage.jsx
+6:38:52 PM [vite] (client) hmr update /src/pages/Dashboard.jsx
+6:39:11 PM [vite] (client) hmr update /src/pages/DetectiveBoardPage.jsx
+6:39:31 PM [vite] (client) hmr update /src/pages/DetectiveBoardPage.jsx
+6:39:31 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: `import` can only be used in `import()` or `import.meta`. (123:0)
+
+  121 |
+  122 |   return (
+> 123 | import PasswordPrompt from '../components/PasswordPrompt';
+      | ^
+  124 | import HoloTerminal from '../components/HoloTerminal';
+  125 | import HoloBoard from '../components/HoloBoard';
+  126 |
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:123:0
+  121|  
+  122|    return (
+  123|  import PasswordPrompt from '../components/PasswordPrompt';
+     |  ^
+  124|  import HoloTerminal from '../components/HoloTerminal';
+  125|  import HoloBoard from '../components/HoloBoard';
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11299:16)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12086:10)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13445:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12403:14)
+      at JSXParserMixin.parseFunction (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13444:10)
+      at JSXParserMixin.parseExportDefaultExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13907:19)
+      at JSXParserMixin.parseExport (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13828:25)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12878:27)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+6:39:31 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: `import` can only be used in `import()` or `import.meta`. (123:0)
+
+  121 |
+  122 |   return (
+> 123 | import PasswordPrompt from '../components/PasswordPrompt';
+      | ^
+  124 | import HoloTerminal from '../components/HoloTerminal';
+  125 | import HoloBoard from '../components/HoloBoard';
+  126 |
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:123:0
+  121|  
+  122|    return (
+  123|  import PasswordPrompt from '../components/PasswordPrompt';
+     |  ^
+  124|  import HoloTerminal from '../components/HoloTerminal';
+  125|  import HoloBoard from '../components/HoloBoard';
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11299:16)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10800:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11675:28)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:61)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseBlock (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12100:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12086:10)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13445:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12403:14)
+      at JSXParserMixin.parseFunction (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13444:10)
+      at JSXParserMixin.parseExportDefaultExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13907:19)
+      at JSXParserMixin.parseExport (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13828:25)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12878:27)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+6:39:55 PM [vite] (client) hmr update /src/pages/DetectiveBoardPage.jsx
+6:40:24 PM [vite] (client) hmr update /src/components/layout/Header.jsx
+6:40:38 PM [vite] (client) hmr update /src/components/layout/Sidebar.jsx
+6:40:59 PM [vite] (client) hmr update /src/styles/design-system.css
+6:41:16 PM [vite] (client) hmr update /src/styles/design-system.css
+6:57:06 PM [vite] (client) hmr update /src/styles/design-system.css
+6:57:37 PM [vite] (client) hmr update /src/pages/DetectiveBoardPage.jsx
+6:57:37 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:57:37 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:58:20 PM [vite] (client) hmr update /src/App.jsx
+6:58:21 PM [vite] (client) Pre-transform error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+6:58:30 PM [vite] (client) hmr update /src/components/layout/Sidebar.jsx
+6:58:31 PM [vite] (client) Pre-transform error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+6:58:31 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:58:36 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:58:37 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:58:37 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:58:38 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:58:38 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:58:46 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:58:53 PM [vite] (client) hmr update /src/pages/OfficersPage.jsx
+6:58:53 PM [vite] (client) Pre-transform error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+6:58:53 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:59:19 PM [vite] (client) hmr update /src/pages/AnalyticsPage.jsx
+6:59:19 PM [vite] (client) warning: The character ">" is not valid inside a JSX element
+217|                className="mb-xs">
+218|                
+219|                  > INTERCEPTING_PKG_32...
+   |                  ^
+220|                </motion.div>
+221|                <div className="opacity-50">
+
+  Plugin: vite:esbuild
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/AnalyticsPage.jsx
+6:59:19 PM [vite] (client) warning: The character ">" is not valid inside a JSX element
+220|                </motion.div>
+221|                <div className="opacity-50">
+222|                  > SYNCING_MD5_HASH...<br />
+   |                  ^
+223|                  > TRACING_IP_192.168.1.1<br />
+224|                  > BYPASSING_FIREWALL...
+
+  Plugin: vite:esbuild
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/AnalyticsPage.jsx
+6:59:19 PM [vite] (client) warning: The character ">" is not valid inside a JSX element
+221|                <div className="opacity-50">
+222|                  > SYNCING_MD5_HASH...<br />
+223|                  > TRACING_IP_192.168.1.1<br />
+   |                  ^
+224|                  > BYPASSING_FIREWALL...
+225|                </div>
+
+  Plugin: vite:esbuild
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/AnalyticsPage.jsx
+6:59:19 PM [vite] (client) warning: The character ">" is not valid inside a JSX element
+222|                  > SYNCING_MD5_HASH...<br />
+223|                  > TRACING_IP_192.168.1.1<br />
+224|                  > BYPASSING_FIREWALL...
+   |                  ^
+225|                </div>
+226|             </div>
+
+  Plugin: vite:esbuild
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/AnalyticsPage.jsx
+6:59:19 PM [vite] (client) Pre-transform error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+6:59:19 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+6:59:45 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+7:00:02 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+7:04:14 PM [vite] (client) hmr update /src/components/layout/Sidebar.jsx
+7:04:42 PM [vite] (client) hmr update /src/pages/DBMSConceptsPage.jsx
+7:06:13 PM [vite] (client) Pre-transform error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+7:06:13 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+7:22:47 PM [vite] Internal server error: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx: Unexpected token (274:6)
+
+  272 |     </div>
+  273 |   );
+> 274 | }    </div>
+      |       ^
+  275 |     </div>
+  276 |   );
+  277 | }
+  Plugin: vite:react-babel
+  File: /home/omkar/Desktop/DBMS/frontend/src/pages/DetectiveBoardPage.jsx:274:6
+  272|      </div>
+  273|    );
+  274|  }    </div>
+     |        ^
+  275|      </div>
+  276|    );
+      at constructor (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:365:19)
+      at JSXParserMixin.raise (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6599:19)
+      at JSXParserMixin.unexpected (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:6619:16)
+      at JSXParserMixin.jsxParseIdentifier (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4569:12)
+      at JSXParserMixin.jsxParseNamespacedName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4576:23)
+      at JSXParserMixin.jsxParseElementName (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4585:21)
+      at JSXParserMixin.jsxParseOpeningElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4661:22)
+      at JSXParserMixin.jsxParseElementAt (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4686:33)
+      at JSXParserMixin.jsxParseElement (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:4762:19)
+      at JSXParserMixin.parseExprSubscripts (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11081:23)
+      at JSXParserMixin.parseUpdate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10899:61)
+      at JSXParserMixin.parseExprOps (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10784:23)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:39
+      at JSXParserMixin.allowInAnd (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12421:16)
+      at JSXParserMixin.parseExpression (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:10780:17)
+      at JSXParserMixin.parseStatementContent (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12895:23)
+      at JSXParserMixin.parseStatementLike (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12744:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13316:36)
+      at JSXParserMixin.parseBlockBody (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:13309:10)
+      at JSXParserMixin.parseProgram (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12622:10)
+      at JSXParserMixin.parseTopLevel (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:12612:25)
+      at JSXParserMixin.parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14488:25)
+      at parse (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/parser/lib/index.js:14522:38)
+      at parser (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:261:32)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:189:28
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:287:14)
+      at /home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/omkar/Desktop/DBMS/frontend/node_modules/gensync/index.js:223:11)
+7:24:01 PM [vite] ws proxy error:
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+7:24:03 PM [vite] ws proxy error:
+Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1549:16)
+Killed

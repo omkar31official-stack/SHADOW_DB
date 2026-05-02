@@ -1,0 +1,48 @@
+
+> shadowdb-backend@1.0.0 dev
+> node --watch server.js
+
+(node:75806) ExperimentalWarning: Watch mode is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✅ SQLite connected successfully
+
+╔══════════════════════════════════════════╗
+║        SHADOWDB SYSTEM - ONLINE          ║
+╠══════════════════════════════════════════╣
+║  Server:    http://localhost:5000         ║
+║  Database:  ✅ Connected              ║
+║  WebSocket: ✅ Active                     ║
+╚══════════════════════════════════════════╝
+
+🔌 Client connected: Zf3UAlXUeGXwQNSTAAAB
+❌ Client disconnected: Zf3UAlXUeGXwQNSTAAAB
+🔌 Client connected: N8zvvY7nl24mlzwFAAAD
+❌ Client disconnected: N8zvvY7nl24mlzwFAAAD
+🔌 Client connected: DiO4OioJ9XFUbJSYAAAF
+🔌 Client connected: 8qT7cLLd7YABW3BLAAAH
+❌ Client disconnected: 8qT7cLLd7YABW3BLAAAH
+🔌 Client connected: qiKmQsDZH99JEVigAAAJ
+❌ Client disconnected: DiO4OioJ9XFUbJSYAAAF
+🔌 Client connected: sKR1SIGSpyYipV1_AAAL
+❌ Client disconnected: sKR1SIGSpyYipV1_AAAL
+❌ Client disconnected: qiKmQsDZH99JEVigAAAJ
+🔌 Client connected: oUN9965eqsZM6XqTAAAN
+🔌 Client connected: Fw9H-zMWuD4LCEY2AAAP
+❌ Client disconnected: oUN9965eqsZM6XqTAAAN
+🔌 Client connected: 99R2wH2vNke8LOXZAAAR
+❌ Client disconnected: 99R2wH2vNke8LOXZAAAR
+🔌 Client connected: LcUtTLGSpJCdLyroAAAT
+❌ Client disconnected: LcUtTLGSpJCdLyroAAAT
+Restarting 'server.js'
+✅ SQLite connected successfully
+
+╔══════════════════════════════════════════╗
+║        SHADOWDB SYSTEM - ONLINE          ║
+╠══════════════════════════════════════════╣
+║  Server:    http://localhost:5000         ║
+║  Database:  ✅ Connected              ║
+║  WebSocket: ✅ Active                     ║
+╚══════════════════════════════════════════╝
+
+🔌 Client connected: 2hERurfZi-huX1w2AAAB
+Failed running 'server.js'
